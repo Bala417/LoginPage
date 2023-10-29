@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(8, 74, 74);
+  color: white;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+table {
+  background-color: rgb(39, 114, 114);
+  max-width: 50%;
+  margin: auto;
+
+  /* border: white 1px solid;
+  color: white; */
+}
+tr {
+  border: rgb(39, 114, 114);
+  width: 150px;
+}
+th {
+  width: 200px;
+}
+th,
+td {
+  /* border-bottom: 3px solid rgb(231, 225, 207);
+  border-right: 3px solid rgb(228, 224, 211); */
+  width: 200px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding: 5px;
+  width: max-content;
+}
+
+.container {
+  max-width: 750px;
+  background-color: rgb(39, 114, 114);
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+button,
+.submit-button {
+  background-color: aqua;
+  border: none;
+  padding: 3px;
+  width: auto;
+  font-size: 15px;
+}
+input {
+  background-color: whitesmoke;
+  border: none;
+  display: block;
+  height: 25px;
+  margin: 10px;
+}
+fieldset {
+  display: inline-block;
+  width: 50%;
+}
+form {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+.create-button {
+  margin: 20px;
+}
+label {
+  padding: 10px;
+  font-size: 15px;
+}
+
+legend {
+  font-size: 20px;
+}
